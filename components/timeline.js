@@ -2,7 +2,7 @@ import TimelinePot from "./timeline-pot";
 
 export default function Timeline() {
   return (
-    <div className="w-full flex justify-start items-center flex-col font-quicksand bg-[#dbcdc1ff] mb-12 min-h-[40vh] mt-8">
+    <div className="w-full flex justify-start items-center flex-col font-quicksand bg-structure bg-fixed bg-[#dbcdc1ff] mb-12 min-h-[40vh] mt-8">
       <h2 className="font-bold text-4xl mt-24 mb-8 uppercase text-[#1a110a]">
         Harmonogram
       </h2>
