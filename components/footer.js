@@ -6,7 +6,7 @@ export default function Footer() {
       <h2 className="text-3xl font-bold uppercase mt-24 mb-8">
         Kontakty
       </h2>
-      <div className="flex flex-col md:grid grid-cols-2">
+      <div className="flex flex-col md:grid grid-cols-2 mb-24">
         <ProfileCard
           name="Anička Tischler"
           title="svědkyně"
