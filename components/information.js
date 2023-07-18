@@ -122,7 +122,7 @@ export default function Infromation() {
             <strong>možnost rozvozu</strong>. Řidiči pro Vás budou k dispozici
             kdykoliv na telefonu.
           </p>
-          <Link className="underline font-semibold" href="#kontakty">
+          <Link className="underline font-semibold" href="/#footer">
             kontakty
           </Link>
         </Card>
@@ -153,7 +153,7 @@ export default function Infromation() {
             svatebního dne. Pokud se budete chtít zapojit, prosíme{" "}
             <strong>kontaktujte koordinátory</strong> Péťu nebo Zdíšu.
           </p>
-          <Link className="underline font-semibold" href="#kontakty">
+          <Link className="underline font-semibold" href="/#footer">
             kontakty
           </Link>
         </Card>

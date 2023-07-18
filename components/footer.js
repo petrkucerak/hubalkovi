@@ -2,8 +2,8 @@ import ProfileCard from "./profile-card";
 
 export default function Footer() {
   return (
-    <div className="w-full bg-[#1a110a] text-[#fff] font-quicksand text-lg flex flex-col items-center mt-24 justify-around min-h-[40vh]">
-      <h2 id="#kontakty" className="text-3xl font-bold uppercase mt-24 mb-8">
+    <div id="#footer" className="w-full bg-[#1a110a] text-[#fff] font-quicksand text-lg flex flex-col items-center mt-24 justify-around min-h-[40vh]">
+      <h2 className="text-3xl font-bold uppercase mt-24 mb-8">
         Kontakty
       </h2>
       <div className="flex flex-col md:grid grid-cols-2">

@@ -13,7 +13,7 @@ export default function Story() {
     if (visibility === "hidden") {
       setVisibility("visible");
       setDirection("rotate-180");
-      router.push("/#button-story");
+      // router.push("/#button-story");
     } else {
       setVisibility("hidden");
       setDirection("");
