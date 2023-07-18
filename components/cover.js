@@ -10,9 +10,16 @@ export default function Cover() {
         className="max-w-[600px] w-[80vw] z-10 lg:max-w-[800px]"
         alt="Marie Novotná & Jiří Hubálek"
       />
-      <p className="text-white text-2xl sm:text-5xl uppercase z-10 font-quicksand font-light text-center max-w-[600px] w-[80vw]">
-        30. 9. 2023
-      </p>
+      <div className="text-white z-10 font-quicksand">
+        <p className="text-2xl sm:text-5xl uppercase font-light text-center max-w-[600px] w-[80vw]">
+          30. 9. 2023
+        </p>
+        <p className="sm:text-xl text-center font-light sm:font-normal sm:mt-4">
+          10:30 v&nbsp;kostel sv.&nbsp;Jakuba
+          <br />
+          Červený Kostelec
+        </p>
+      </div>
     </div>
   );
 }

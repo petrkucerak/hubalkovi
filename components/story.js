@@ -1,16 +1,27 @@
 "use client";
 
+import { useRouter } from "next/navigation";
 import { useState } from "react";
 
 export default function Story() {
   const [visibility, setVisibility] = useState("hidden");
+  const [direction, setDirection] = useState("");
+
+  const router = useRouter();
+
   const showStory = () => {
-    if (visibility === "hidden") setVisibility("visible");
-    else setVisibility("hidden");
+    if (visibility === "hidden") {
+      setVisibility("visible");
+      setDirection("rotate-180");
+      router.push("/#button-story");
+    } else {
+      setVisibility("hidden");
+      setDirection("");
+    }
   };
 
   return (
-    <div className="w-full flex justify-start items-center flex-col min-h-[90vh] font-quicksand">
+    <div className="w-full flex justify-start items-center flex-col font-quicksand">
       <h2 className="font-bold text-4xl mt-24 mb-8 uppercase">Náš příběh</h2>
       <p className="max-w-[1000px] w-[90vw] text-lg font-semibold">
         Jsme pár - dva spojeni láskou, kterou se rozhodli zářit světu. Lidi
@@ -28,6 +39,7 @@ export default function Story() {
         className="bg-[#dbcdc1ff] hover:bg-[#caa789] text-[#583922] font-bold py-2 pr-4 pl-2 rounded mb-8 text-lg inline-flex items-center"
         type="button"
         onClick={showStory}
+        id="button-story"
       >
         <svg
           xmlns="http://www.w3.org/2000/svg"
@@ -40,6 +52,7 @@ export default function Story() {
           fill="none"
           stroke-linecap="round"
           stroke-linejoin="round"
+          className={direction}
         >
           <path stroke="none" d="M0 0h24v24H0z" fill="none" />
           <path
@@ -54,7 +67,9 @@ export default function Story() {
         id="more-story"
         className={`${visibility} max-w-[1000px] w-[90vw] font-semibold my-8 text-lg sm:pl-12 sm:border-l-2 sm:border-[#583922]`}
       >
-        <h3 className="font-bold text-2xl">Příběh naší lásky</h3>
+        <h3 className="font-bold text-2xl">
+          Příběh naší lásky
+        </h3>
         <p className="my-2">
           Píše se léto 2021, kdy na Diecézní centrum života mládeže Vesmír se
           vydává Marunka z Horního Kostelce. Pár dní před tím, než odjela na
@@ -80,7 +95,7 @@ export default function Story() {
           věděla, že jednou bude k němu přicházet k oltáři).
         </p>
 
-        <img src="/images/story-1.webp" className="my-8 rounded"/>
+        <img src="/images/story-1.webp" className="my-8 rounded" />
 
         <p className="my-2">
           Začali si psát. Nejprve kvůli svatbě Kamila a Pavlínky. Avšak co se
