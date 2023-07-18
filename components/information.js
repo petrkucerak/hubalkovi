@@ -2,7 +2,35 @@ import Link from "next/link";
 import Card from "./card";
 export default function Infromation() {
   return (
-    <div className="w-full flex justify-start my-24 items-center flex-col font-quicksand text-[#1a110a]">
+    <div className="w-full flex justify-start items-center flex-col font-quicksand text-[#1a110a]">
+      <div className="my-24 text-2xl w-[90vw] max-w-[1000px] text-center font-semibold">
+        <p>
+          Prosíme o informaci, zda se chystáte, nebo nechystáte na naši svatbu.
+          <br />
+          Moc nám to pomůže s přípravami.{" "}
+        </p>
+        <Link href="https://forms.gle/VjofqnZTiZYGWdUD6" target="_blank">
+          <button className="bg-[#dbcdc1ff] uppercase hover:bg-[#caa789] text-[#583922] font-bold py-2 pr-4 pl-2 rounded mt-8 text-lg inline-flex items-center">
+            <svg
+              xmlns="http://www.w3.org/2000/svg"
+              class="icon icon-tabler icon-tabler-check"
+              width="30"
+              height="30"
+              viewBox="0 0 24 24"
+              stroke-width="1.5"
+              stroke="#1a110a"
+              fill="none"
+              stroke-linecap="round"
+              stroke-linejoin="round"
+              className="mr-2"
+            >
+              <path stroke="none" d="M0 0h24v24H0z" fill="none" />
+              <path d="M5 12l5 5l10 -10" />
+            </svg>{" "}
+            <span>potvrzení účasti</span>
+          </button>
+        </Link>
+      </div>
       <div className="w-[90vw] max-w-[1000px] flex flex-col items-center md:grid md:grid-cols-2 lg:grid-cols-3 text-lg">
         <Card>
           <svg
@@ -222,10 +250,7 @@ export default function Infromation() {
               </Link>
             </li>
             <li>
-              <Link
-                target="_blank"
-                href="http://www.restaurace-divadlo.cz/"
-              >
+              <Link target="_blank" href="http://www.restaurace-divadlo.cz/">
                 Restaurace Divadlo
               </Link>
             </li>
