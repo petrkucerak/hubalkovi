@@ -20,19 +20,19 @@ export default function Footer() {
           image="/images/profile-02.jpg"
         />
         <ProfileCard
+          name="Zdíša Kroupová"
+          title="koordinátorka"
+          phone="123456789"
+          image="/images/avatar.png"
+        />
+        <ProfileCard
           name="Petr Kučera"
           title="koordinátor"
           phone="731769416"
           image="/images/profile-03.jpeg"
         />
-        <ProfileCard
-          name="Zdíša Kroupová"
-          title="koordinátorka"
-          phone=""
-          image=""
-        />
-        <ProfileCard name="" title="řidič" phone="" image="" />
-        <ProfileCard name="" title="řidič" phone="" image="" />
+        <ProfileCard name="" title="řidič" phone="123456789" image="/images/avatar.png" />
+        <ProfileCard name="" title="řidič" phone="123456789" image="/images/avatar.png" />
       </div>
     </div>
   );

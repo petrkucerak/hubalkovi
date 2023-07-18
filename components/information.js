@@ -177,7 +177,7 @@ export default function Infromation() {
           <h2 className="text-2xl font-bold mb-1">Barevná kolekce</h2>
           <p>
             Šactvo jaké vám je libo, hlavní je cítit se dobře při obřadu i na
-            tanečním parketě. Barvy můžete je ladit do našich{" "}
+            tanečním parketě. Barvy můžete ladit do našich{" "}
             <strong>barev svatby</strong>.
           </p>
           <div className="flex w-full justify-between">
