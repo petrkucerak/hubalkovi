@@ -1,7 +1,7 @@
 export default function Cover() {
   return (
     <div
-      className={`bg-[#000] bg-cover bg-center w-full h-[100vh] bg-[url('/images/cover.jpg')] flex justify-around items-center flex-col`}
+      className={`bg-[#000] bg-cover bg-center w-full h-[100vh] bg-[url('/images/cover.webp')] flex justify-around items-center flex-col`}
     >
       <div className={`bg-[#000] opacity-40 absolute w-full h-[100vh]`}></div>
       <h1 className="text-white text-3xl uppercase z-10 font-quicksand font-light tracking-widest">
