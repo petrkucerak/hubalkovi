@@ -5,6 +5,21 @@ module.exports = {
     "./components/**/*.{js,ts,jsx,tsx,mdx}",
     "./app/**/*.{js,ts,jsx,tsx,mdx}",
   ],
-  theme: {},
+  theme: {
+    extend: {
+      fontFamily: {
+        gistesy: ["Gistesy"],
+        quicksand: ["Quicksand"],
+      },
+    },
+  },
+  variants: {
+    extend: {
+      fontFamily: ["hover", "focus"],
+    },
+  },
   plugins: [],
+  corePlugins: {
+    fontFamily: true,
+  },
 };
