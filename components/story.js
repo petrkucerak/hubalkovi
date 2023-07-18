@@ -80,7 +80,9 @@ export default function Story() {
           věděla, že jednou bude k němu přicházet k oltáři).
         </p>
 
-        <p className="mt-6 mb-2">
+        <img src="/images/story-1.webp" className="my-8 rounded"/>
+
+        <p className="my-2">
           Začali si psát. Nejprve kvůli svatbě Kamila a Pavlínky. Avšak co se
           neděje. Psaní se nám přetváří v dlouhé noční hovory a řešení, zda-li
           je to klobouk, nebo slon v hroznýši.

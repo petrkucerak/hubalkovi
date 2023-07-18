@@ -7,7 +7,7 @@ export default function Cover() {
       </h1>
       <img
         src="/images/title-white.svg"
-        className="max-w-[600px] w-[80vw] z-10"
+        className="max-w-[600px] w-[80vw] z-10 lg:max-w-[800px]"
         alt="Marie Novotná & Jiří Hubálek"
       />
       <p className="text-white text-2xl sm:text-5xl uppercase z-10 font-quicksand font-light text-center max-w-[600px] w-[80vw]">
