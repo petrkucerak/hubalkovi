@@ -21,7 +21,7 @@ export default function Story() {
   };
 
   return (
-    <div className="w-full flex justify-start items-center flex-col font-quicksand">
+    <div className="w-full flex justify-start items-center flex-col font-quicksand text-[#1a110a]">
       <h2 className="font-bold text-4xl mt-24 mb-8 uppercase">Náš příběh</h2>
       <p className="max-w-[1000px] w-[90vw] text-lg font-semibold">
         Jsme pár - dva spojeni láskou, kterou se rozhodli zářit světu. Lidi
