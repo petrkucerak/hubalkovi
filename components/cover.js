@@ -1,6 +1,6 @@
 export default function Cover() {
   return (
-    <div className="bg-[#000] bg-cover bg-center w-full h-[90vh] bg-[url('/images/cover.webp')] flex justify-around items-center flex-col">
+    <div className="bg-[#1a110a] bg-cover bg-center w-full h-[90vh] bg-[url('/images/cover.webp')] flex justify-around items-center flex-col">
       <div className={`bg-[#000] opacity-40 absolute w-full h-[90vh]`}></div>
       <h1 className="text-white text-2xl sm:text-3xl uppercase z-10 font-quicksand font-light tracking-widest text-center max-w-[600px] w-[80vw]">
         Budeme se brát
