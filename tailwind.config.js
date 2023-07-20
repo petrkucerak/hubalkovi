@@ -10,6 +10,7 @@ module.exports = {
       fontFamily: {
         gistesy: ["Gistesy"],
         quicksand: ["Quicksand"],
+        thaiBlack: ["Noto Sans Thai"],
       },
     },
   },

@@ -2,8 +2,8 @@ import TimelinePot from "./timeline-pot";
 
 export default function Timeline() {
   return (
-    <div className="w-full flex justify-start items-center flex-col font-quicksand bg-structure bg-fixed bg-[#dbcdc1ff] mb-12 min-h-[40vh] mt-8">
-      <h2 className="font-bold text-4xl mt-24 mb-8 uppercase text-[#1a110a]">
+    <div className="w-full flex justify-start items-center flex-col font-thaiBlack bg-structure bg-fixed bg-[#dbcdc1ff] mb-12 min-h-[40vh] mt-8">
+      <h2 className="font-light text-4xl md:text-5xl mt-24 mb-8 uppercase tracking-wide text-[#1a110a]">
         Harmonogram
       </h2>
 
@@ -22,6 +22,11 @@ export default function Timeline() {
         <TimelinePot time="18:30" text="Svatební zábava" dir="right" />
         <TimelinePot time="22:00" text="Nechte lásku zazářit" dir="left" />
       </div>
+      {/* <div className="w-full">
+        <div className="absolute w-full">
+          <img src="/images/flower-brown.svg" className="relative h-64 -top-64 left-0" />
+        </div>
+      </div> */}
     </div>
   );
 }

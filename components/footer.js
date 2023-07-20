@@ -2,8 +2,8 @@ import ProfileCard from "./profile-card";
 
 export default function Footer() {
   return (
-    <div id="#footer" className="w-full bg-[#1a110a] text-[#fff] font-quicksand text-lg flex flex-col items-center mt-24 justify-around min-h-[40vh]">
-      <h2 className="text-3xl font-bold uppercase mt-24 mb-8">
+    <div id="#footer" className="w-full bg-[#1a110a] text-[#fff] font-thaiBlack text-lg flex flex-col items-center mt-24 justify-around min-h-[40vh]">
+      <h2 className="font-light text-4xl md:text-5xl mt-24 mb-8 uppercase tracking-widest">
         Kontakty
       </h2>
       <div className="flex flex-col md:grid grid-cols-2 mb-20">
@@ -31,8 +31,8 @@ export default function Footer() {
           phone="731769416"
           image="/images/profile-03.jpeg"
         />
-        <ProfileCard name="" title="řidič" phone="123456789" image="/images/avatar.png" />
-        <ProfileCard name="" title="řidič" phone="123456789" image="/images/avatar.png" />
+        {/* <ProfileCard name="" title="řidič" phone="123456789" image="/images/avatar.png" />
+        <ProfileCard name="" title="řidič" phone="123456789" image="/images/avatar.png" /> */}
       </div>
     </div>
   );
