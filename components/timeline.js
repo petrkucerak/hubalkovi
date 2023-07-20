@@ -22,6 +22,11 @@ export default function Timeline() {
         <TimelinePot time="18:30" text="Svatební zábava" dir="right" />
         <TimelinePot time="22:00" text="Nechte lásku zazářit" dir="left" />
       </div>
+      {/* <div className="w-full">
+        <div className="absolute w-full">
+          <img src="/images/flower-brown.svg" className="relative h-64 -top-64 left-0" />
+        </div>
+      </div> */}
     </div>
   );
 }
