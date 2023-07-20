@@ -2,8 +2,8 @@ import Link from "next/link";
 import Card from "./card";
 export default function Infromation() {
   return (
-    <div className="w-full flex justify-start items-center flex-col font-quicksand text-[#1a110a]">
-      <div className="my-24 text-2xl w-[90vw] max-w-[1000px] text-center font-semibold">
+    <div className="w-full flex justify-start items-center flex-col font-thaiBlack text-[#1a110a]">
+      <div className="my-24 text-2xl w-[90vw] max-w-[1000px] text-center font-normal">
         <p>
           Prosíme o informaci, zda se chystáte, nebo nechystáte na naši svatbu.
           <br />
