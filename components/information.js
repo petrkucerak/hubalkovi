@@ -88,9 +88,9 @@ export default function Infromation() {
           </svg>
           <h2 className="text-2xl font-bold mb-1">Dárky</h2>
           <p>
-            Největším dárkem pro nás bude, když tento den strávíte s námi a
-            užijete si ho. Pokud byste nás i přesto chtěli obdarovat, budeme
-            rádi za jakýkoliv <strong>finanční příspěvek</strong> na vykouzlení
+            Největším dárkem pro nás bude, když tento den strávíte naplno s
+            námi. Pokud byste nás i přesto chtěli obdarovat, budeme rádi za
+            jakýkoliv <strong>finanční příspěvek</strong> na vykouzlení
             společného bydlení.
           </p>
         </Card>

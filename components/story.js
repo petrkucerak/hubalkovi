@@ -22,7 +22,7 @@ export default function Story() {
 
   return (
     <div className="w-full flex justify-start items-center flex-col font-thaiBlack text-[#1a110a]">
-      <h2 className="font-light text-5xl mt-24 mb-8 uppercase tracking-wide text-[#1a110a]">
+      <h2 className="font-light text-4xl md:text-5xl mt-24 mb-8 uppercase tracking-wide text-[#1a110a]">
         Náš příběh
       </h2>
       <p className="max-w-[1000px] w-[90vw] text-lg font-light">

@@ -167,7 +167,7 @@ export default function GalleryCustom() {
 
   return (
     <div className="w-full">
-      <h2 className="font-light text-5xl mt-24 mb-8 uppercase tracking-wide text-[#1a110a] text-center">
+      <h2 className="font-light text-4xl md:text-5xl mt-24 mb-8 uppercase tracking-wide text-[#1a110a] text-center">
         Galerie
       </h2>
       <Gallery photos={photos} onClick={openLightbox} />
