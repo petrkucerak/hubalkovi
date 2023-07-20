@@ -5,9 +5,10 @@ export default function Infromation() {
     <div className="w-full flex justify-start items-center flex-col font-thaiBlack text-[#1a110a]">
       <div className="my-24 text-2xl w-[90vw] max-w-[1000px] text-center font-normal">
         <p>
-          Prosíme o informaci, zda se chystáte, nebo nechystáte na naši svatbu.
+          Prosíme o&nbsp;informaci, zda se chystáte, nebo nechystáte
+          na&nbsp;naši svatbu.
           <br />
-          Moc nám to pomůže s přípravami.{" "}
+          Moc nám to pomůže s&nbsp;přípravami.{" "}
         </p>
         <Link href="https://forms.gle/VjofqnZTiZYGWdUD6" target="_blank">
           <button className="bg-[#dbcdc1ff] uppercase hover:bg-[#caa789] text-[#583922] font-bold py-2 pr-4 pl-2 rounded mt-8 text-lg inline-flex items-center">
@@ -55,8 +56,8 @@ export default function Infromation() {
           </svg>
           <h2 className="text-2xl font-bold mb-1">Mapa města</h2>
           <p>
-            Pro lepší orientaci jsme připravili mapu, na které jsou označena
-            všechna <strong>důležitá místa</strong>.
+            Pro lepší orientaci jsme připravili mapu, na&nbsp;které jsou
+            označena všechna <strong>důležitá místa</strong>.
           </p>
           <Link
             href={"https://mapy.cz/s/jakupedere"}
@@ -88,10 +89,10 @@ export default function Infromation() {
           </svg>
           <h2 className="text-2xl font-bold mb-1">Dárky</h2>
           <p>
-            Největším dárkem pro nás bude, když tento den strávíte naplno s
-            námi. Pokud byste nás i přesto chtěli obdarovat, budeme rádi za
-            jakýkoliv <strong>finanční příspěvek</strong> na vykouzlení
-            společného bydlení.
+            Největším dárkem pro nás bude, když tento den strávíte naplno
+            s&nbsp;námi. Pokud byste nás i&nbsp;přesto chtěli obdarovat, budeme
+            rádi za&nbsp;akýkoliv <strong>finanční příspěvek</strong>{" "}
+            na&nbsp;vykouzlení společného bydlení.
           </p>
         </Card>
         <Card>
@@ -118,9 +119,9 @@ export default function Infromation() {
           </svg>
           <h2 className="text-2xl font-bold mb-1">Odvoz</h2>
           <p>
-            Kdo v blízkém okolí bydlíte, neváhejte využít{" "}
-            <strong>možnost rozvozu</strong>. Řidiči pro Vás budou k dispozici
-            kdykoliv na telefonu.
+            Kdo v&nbsp;blízkém okolí bydlíte, neváhejte využít{" "}
+            <strong>možnost rozvozu</strong>. Řidiči pro Vás budou
+            k&nbsp;dispozici kdykoliv na&nbsp;telefonu.
           </p>
           <Link className="underline font-semibold" href="/#footer">
             kontakty
@@ -149,8 +150,8 @@ export default function Infromation() {
           </svg>
           <h2 className="text-2xl font-bold mb-1">Zapojení do zábavy</h2>
           <p>
-            Oba jsme srandisti to se ví a&nbsp;budeme rádi za jakékoli zpestření
-            svatebního dne. Pokud se budete chtít zapojit, prosíme{" "}
+            Oba jsme srandisti to se ví a&nbsp;budeme rádi za&nbsp;jakékoli
+            zpestření svatebního dne. Pokud se budete chtít zapojit, prosíme{" "}
             <strong>kontaktujte koordinátory</strong> Péťu nebo Zdíšu.
           </p>
           <Link className="underline font-semibold" href="/#footer">
@@ -176,8 +177,8 @@ export default function Infromation() {
           </svg>
           <h2 className="text-2xl font-bold mb-1">Barevná kolekce</h2>
           <p>
-            Šactvo jaké vám je libo, hlavní je cítit se dobře při obřadu i na
-            tanečním parketě. Barvy můžete ladit do našich{" "}
+            Šactvo jaké vám je libo, hlavní je cítit se dobře při obřadu
+            i&nbsp;na&nbsp;tanečním parketě. Barvy můžete ladit do našich{" "}
             <strong>barev svatby</strong>.
           </p>
           <div className="flex w-full justify-between">
