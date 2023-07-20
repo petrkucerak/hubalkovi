@@ -31,8 +31,8 @@ export default function Footer() {
           phone="731769416"
           image="/images/profile-03.jpeg"
         />
-        <ProfileCard name="" title="řidič" phone="123456789" image="/images/avatar.png" />
-        <ProfileCard name="" title="řidič" phone="123456789" image="/images/avatar.png" />
+        {/* <ProfileCard name="" title="řidič" phone="123456789" image="/images/avatar.png" />
+        <ProfileCard name="" title="řidič" phone="123456789" image="/images/avatar.png" /> */}
       </div>
     </div>
   );
