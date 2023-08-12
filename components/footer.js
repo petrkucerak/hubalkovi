@@ -15,15 +15,15 @@ export default function Footer() {
         />
         <ProfileCard
           name="Honza Klinger"
-          title="svědkek"
+          title="svědek"
           phone="736406445"
           image="/images/profile-02.jpg"
         />
         <ProfileCard
           name="Zdíša Kroupová"
           title="koordinátorka"
-          phone="123456789"
-          image="/images/avatar.png"
+          phone="736746335"
+          image="/images/profile-04.jpg"
         />
         <ProfileCard
           name="Petr Kučera"
